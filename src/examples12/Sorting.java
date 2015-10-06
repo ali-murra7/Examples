@@ -62,19 +62,19 @@ public class Sorting {
          }
     }
     
-    public int sequencialSearch(int[]n, int find)
-    {
-        for(int i = 0; i < n.length;i++)
-        {
-            if(n[i] == find)
-            {
-                return i;
-            }else if(n[i] > find)
-            {
-                return -1;
-            }
-        }
-    }
+//    public int sequencialSearch(int[]n, int find)
+//    {
+//        for(int i = 0; i < n.length;i++)
+//        {
+//            if(n[i] == find)
+//            {
+//                return i;
+//            }else if(n[i] > find)
+//            {
+//                return -1;
+//            }
+//        }
+//    }
 //    
     public int binarySearch(int[]n, int find, int start, int end)
     {
@@ -113,7 +113,7 @@ public class Sorting {
         int[] n = {24,1,5,23,87,13,2};
         //sort array
 //        test.bubbleSort(n);
-        test.insertionSort(n);
+        test.bubbleSort(n);
         //check if sorted
         for(int i = 0; i < n.length; i++)
         {
